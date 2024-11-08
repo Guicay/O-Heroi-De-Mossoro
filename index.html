@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Herói de Mossoró</title>
+</head>
+
+<body>
+    <nav class="navegar">
+        <a href="#quem">Quem é o Homem Aranha?</a>
+        <a href="#valores">Quais são seus valores?</a>
+        <a href="#poderes">Quais são seus poderes?</a>
+        <a href="#multiverso">Multiverso do Homem Aranha</a>
+    </nav>
+
+    <img id="lego"src="imagens/lego.png" alt="">
+
+    <div class="q" id="quem">
+        <h1>Quem é o Homem Aranha?</h1>
+        <h2>O Homem-Aranha, o alter ego de Peter Parker,<br>é um super-herói das revistas em quadrinhos publicadas pela Marvel Comics. </h2>
+        <h3> Seu verdadeiro nome é Peter Parker,<br>um jovem estudante de fotografia de Nova York<br>que ganha habilidades extraordinárias<br>após ser mordido por uma aranha radioativa.</h3>
+        <img id="mascara"src="imagens/mascara.png" alt="">
+    </div>
+     
+    <img id="cabeçudo"src="imagens/cabeçudo.png" alt="">
+
+    <div class="q" id="valores">
+        <h1>Quais os seus valores?</h1>
+        <h2>É um super-herói conhecido por sua integridade e valores,<br>sendo guiado pelo princípio de que "com grandes poderes vêm grandes responsabilidades". </h2>
+        <h3>Após a perda de seu tio Ben,<br>Peter aprende a usar suas habilidades<br> para proteger os outros.<br>Seus principais valores incluem<br>responsabilidade, coragem,<br>altruísmo, perseverança e justiça. 
+        <p>Esses princípios tornam o Homem-Aranha um herói que,<br> apesar de seus desafios pessoais,<br>está sempre comprometido em fazer<br> o bem e proteger os inocentes.</p></h3>
+        <img id="oloco"src="imagens/oloco.png" alt="">
+    </div>
+
+    <img id="cabeçudo2"src="imagens/cabeçudo2.png" alt="">
+
+    <div class="q" id="poderes">
+        <h1>Quais são seus poderes?</h1>
+        <h2>O Homem-Aranha possui força sobre-humana, agilidade extrema,<br>reflexos rápidos e um “sentido aranha” que o alerta sobre perigos.</h2>
+        <h3>Ele consegue escalar paredes e, graças ao seu intelecto<br>de gênio, criou lançadores de teia, que usa para<br>se balançar entre prédios e capturar inimigos.<br>Esses poderes, combinados com sua inteligência,<br> o tornam um herói ágil e versátil.</h3>
+        <img id="alerta"src="imagens/alerta.png" alt="">
+    </div>
+
+    <img id="aranha"src="imagens/aranha.png" alt="">
+
+    <div class="q" id="multiverso">
+        <h1>Multiverso do Homem Aranha</h1>
+        <h2>O multiverso do Homem-Aranha é<br>uma coleção de universos paralelos, cada um com sua própria versão do herói.</h2>
+        <h3>Cada universo tem suas próprias histórias, vilões e <br> características únicas, mas compartilham valores.<br> Esse conceito expande o alcance do personagem,<br>mostrando como o herói pode existir em diferentes formas, mas sempre com a essência de responsabilidade e coragem.</h3>
+        <img id="multiv"src="imagens/multiverso.jpg" alt="">
+    </div>
+
+</body>
+
+<style>
+
+.q{
+    height: 23%;
+    background-color: black;
+    border-radius: 25px;
+    width: 50%;
+    margin: 1.5% auto;
+    position: relative;
+}
+
+.q h1 {
+    color: white;
+    font-family:cursive;
+    font-weight: 530;
+    top: 0;
+    padding-top: 5%;
+    text-align: center;
+    border-bottom: 0.2em solid rgba(182, 0, 0, 0.734);
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 0.3em;
+    transition: font-size 0.4s ease;
+    position: relative;
+}
+
+.q h2{
+    color: white;
+    font-family:cursive;
+    font-weight: 530;
+    top: 0;
+    padding-top: 5%;
+    text-align: center;
+    position: relative;
+}
+
+.q h3{
+    color: white;
+    font-family:cursive;
+    font-weight: 530;
+    top: 0;
+    padding-top: 5%;
+    text-align: center;
+    margin-left: 45%;
+    margin-top: 10%;
+    position: relative;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.637);
+    width: 100%;
+    height: 1%;
+    padding: 3% 0;
+    text-align: center;
+}    
+
+nav a{
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+    margin: 0 4%; 
+}
+
+nav a:hover{
+    text-decoration: underline;   
+}
+
+.q h1:hover{
+    font-size: 2.2em;
+}
+body{
+    width: 100%;
+    height: 335vh;
+    background-image: linear-gradient(to bottom, rgb(55, 5, 2), rgb(138, 0, 0));
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0; 
+    padding: 0;
+}
+
+#mascara{
+    top: 45%;
+    left: 4%;
+    transform: rotate(-20deg);
+    position: absolute;
+    z-index: 10;
+}
+
+#lego{
+    top: 5%;
+    left: 15%;
+    transform: rotate(-15deg);
+    position: absolute;
+    z-index: 10;
+}
+
+#cabeçudo{
+    width: 13%;
+    left: 80%;
+    transform: rotate(20deg);
+    position: absolute;
+    z-index: 10;
+}
+
+#oloco{
+    top: 30%;
+    left: 2%;
+    transform: rotate(-20deg);
+    position: absolute;
+    z-index: 10;
+}
+
+#cabeçudo2{
+    left: 4%;
+    transform: rotate(20deg);
+    position: absolute;
+    z-index: 10;
+}
+
+#alerta{
+    width: 40%;
+    left: 15%;
+    top: 30%;
+    position: absolute;
+    z-index: 10;
+}
+
+#multiv{
+    width: 40%;
+    border-radius: 25px;
+    top: 32%;
+    left: 5%;
+    position: absolute;
+    z-index: 10;
+}
+
+#aranha{
+    position: absolute;
+    z-index: 10;
+    left: 73%;
+}
+
+</style>
+
+</html>
